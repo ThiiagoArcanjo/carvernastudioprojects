@@ -43,4 +43,13 @@ class Home extends CI_Controller {
 		$this->load->view('html-footer');
 	}
 
+	public function error404(){
+		
+		$this->load->view('html-header');
+		$this->load->view('header');
+		$this->load->view('error404');
+		$this->load->view('footer');
+		$this->load->view('html-footer');
+	}
+
 }
