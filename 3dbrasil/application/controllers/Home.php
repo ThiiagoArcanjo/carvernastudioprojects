@@ -2,7 +2,6 @@
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Home extends CI_Controller {
-
 	public function index(){
 		$this->carregarViews('home');
 	}
@@ -25,7 +24,6 @@ class Home extends CI_Controller {
 
 	public function error404(){
 		$this->carregarViews('error404');
-
 	}
 
 	public function carregarViews($view){
