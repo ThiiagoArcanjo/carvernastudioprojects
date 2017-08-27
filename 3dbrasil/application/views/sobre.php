@@ -1,8 +1,8 @@
 <div class="about">
 		<div class="container">
 			<div class="about-bottom">
-				<a href="single.html"><img src="images/ab.jpg" alt=""></a>
-				<h1><a href="single.html"><center> 3D Brasil</center></a></h1>
+				<a href="home"><img src="<?php echo base_url('assets/images/ab.jpg'); ?>" alt=""></a>
+				<h1><a href="home"><center> 3D Brasil</center></a></h1>
 				<p>Esta história é escrita por personagens que acreditaram 
 				em um sonho e o transformaram em realidade, levando a 
 				empresa e seus processos a serem reconhecidos no Brasil por empresas multinacionais.</p>
