@@ -1,7 +1,7 @@
 <div class="about">
 		<div class="container">
 			<div class="about-bottom">
-				<a href="home"><img src="<?php echo base_url('assets/images/ab.jpg'); ?>" alt=""></a>
+				<a href="home"><img src="<?php echo base_url('assets/images/b7.jpg'); ?>" alt=""></a>
 				<h1><a href="home"><center> 3D Brasil</center></a></h1>
 				<p>Esta história é escrita por personagens que acreditaram 
 				em um sonho e o transformaram em realidade, levando a 
