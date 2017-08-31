@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>3D-Brasil</title>
+		<link rel="icon" type="images/png" href="<?php echo base_url('assets/images/logo.png'); ?>" />
 		<?php
 			echo link_tag('assets/css/style.css').
 			link_tag('assets/css/carousel.css');
