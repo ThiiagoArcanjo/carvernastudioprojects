@@ -4,7 +4,7 @@
 		   <div class="header-main">
 		   	 <div class="container">
 			 <div class="logo">
-			 	<a href="index.html"><img src="<?php echo base_url('assets/images/logo.png'); ?>" alt=""> </a>
+			 	<a href="home"><img src="<?php echo base_url('assets/images/logo.png'); ?>" alt=""> </a>
 			 </div>
 			 <div class="top-nav">
 			 		<span class="menu-drop menu-icon"> <img src="<?php echo base_url('assets/images/icon.png'); ?>" alt=""></span>
