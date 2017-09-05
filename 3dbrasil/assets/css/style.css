@@ -60,23 +60,23 @@ a:hover {
     background: url(../images/b1.jpg)no-repeat center;
     background-size: cover;
     min-height: 800px;
-    border-top: 6px solid #017575;
+    border-top: 6px solid #9acccd;
 }
 .header-container{
-   background-color: #234;
+    background-color: #004143  ;
     background-size: cover;
-    border-top: 6px solid #867bb2;
+    border-top: 6px solid #9acccd;
 
 }
 .banner1 {
     background: url(../images/b1.jpg)no-repeat;
     background-size: cover;
     min-height: 255px;
-    border-top: 6px solid #867bb2;
+    border-top: 6px solid #9acccd;
 }
 .header-main {
     padding: 1em 0em 0em 0em;
-    border-bottom:1px solid #867bb2;
+    border-bottom:1px solid #9acccd;
 }
 .logo {
     float: left;
@@ -112,7 +112,7 @@ ul.res li a {
   font-family: 'Lato-Regular';
 }
 .top-nav ul.res li a:hover, .top-nav ul.res li a.active, .cl-effect-11 a::before {
-    color:#867bb2;
+    color:#FFF;
 }
 span.menu-drop {
     display: none;
@@ -194,7 +194,7 @@ nav.menu.menu--shylock {
 .menu--shylock .menu__item--current .menu__link,
 .menu--shylock .menu__item--current .menu__link:hover,
 .menu--shylock .menu__item--current .menu__link:focus {
-	color: #867bb2;
+	color: #FFF;
 }
 
 .menu--shylock .menu__item--current .menu__link::after,
@@ -209,7 +209,7 @@ nav.menu.menu--shylock {
 }
 .menu--shylock .menu__link:hover,
 .menu--shylock .menu__link:focus {
-	color:#867bb2;
+	color:#FFF;
 }
 
 .menu--shylock .menu__link:hover::before,
@@ -236,12 +236,12 @@ nav.menu.menu--shylock {
 	transition: transform 0.4s cubic-bezier(0.22, 0.61, 0.36, 1);
 }
 .menu--shylock .menu__link::before {
-	background: #867bb2;
+	background: #FFF;
 	-webkit-transition-delay: 0.4s;
 	transition-delay: 0.4s;
 }
 .menu--shylock .menu__link::after {
-	background: #867bb2;
+	background: #FFF;
 }
 /*--banner first block strat here--*/
 .bann-frs-block-right {

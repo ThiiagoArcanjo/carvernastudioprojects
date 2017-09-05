@@ -16,7 +16,7 @@
 				</ul>
 			</div>
 			<div class="col-md-3 ftr-grids">
-				<h3>Contatos</h3>
+				<h3>Contato</h3>
 				<?php
 					$atributos = array('name' =>'formulario_contato', 'id' => 'formulario_contato');
 					echo form_open(base_url('welcome/enviar_mensagem'),$atributos) .

@@ -9,6 +9,7 @@
 					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
@@ -38,6 +39,16 @@
 								<h1>Another example headline.</h1>
 								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
 								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="second-slide" src="<?php echo base_url('assets/images/b2.jpg') ?>" alt="Second slide">
+						<div class="container">
+							<div class="carousel-caption">
+								<!--<h1>Another example headline.</h1>
+								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p> -->
 							</div>
 						</div>
 					</div>
