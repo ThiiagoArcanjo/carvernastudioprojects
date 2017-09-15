@@ -23,13 +23,16 @@
 					$atributos = array('name' =>'formulario_contato', 'id' => 'formulario_contato');
 					echo form_open(base_url('home/enviar_mensagem'),$atributos) .
 					form_label("Nome:", "txt_nome") . br() .
-					form_input('txt_nome','Nomes',set_value('txt_nome')) .br().
+					form_input(array('id'=>'nome','name'=>'nome','Placeholder'=>'Nome',
+						'value'=>set_value('nome'))) .br().
 					form_label("E-mail:","txt_email"). br().
-					form_input('txt_email', 'Email', set_value('txt_email')) .br().
+					form_input(array('id'=>'email','name'=>'email','Placeholder'=>'E-mail',
+						'value'=>set_value('email'))) .br().
 					form_label("Assunto","txt_assunto"). br().
-					form_input('txt_assunto','Assunto', set_value('txt_assunto')) .br().
+					form_input(array('id'=>'assunto','name'=>'assunto','Placeholder'=>'Assunto',
+						'value'=>set_value('assunto'))) .br().
 					form_label("Mensagem:","txt_mensagem") .br().
-					form_textarea('txt_mensagem','Mensagem', set_value('txt_mensagem')) .br().
+					form_textarea(array('id'=>'mensagem','name'=>'mensagem','Placeholder'=>'Mensagem','value'=>set_value('mensagem'))) .br().
 					form_submit("btn_enviar","Enviar").
 					form_close();
 					?>

@@ -16,9 +16,9 @@
 						<img class="first-slide" src="<?php echo base_url('assets/images/b1.jpg') ?>" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Example headline.</h1>
-								<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
-								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p>
+								<h1>Conheça Nosso produtos</h1>
+								<br><br>
+								<p><a class="btn btn-lg btn-primary" href="produtos" role="button">Produtos</a></p>
 							</div>
 						</div>
 					</div>
@@ -26,9 +26,9 @@
 						<img class="second-slide" src="<?php echo base_url('assets/images/ab.jpg') ?>" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Another example headline.</h1>
+								<!--<h1>Another example headline.</h1>
 								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p>
+								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p> -->
 							</div>
 						</div>
 					</div>
@@ -36,9 +36,9 @@
 						<img class="second-slide" src="<?php echo base_url('assets/images/b6.jpg') ?>" alt="Second slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Another example headline.</h1>
-								<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-								<p><a class="btn btn-lg btn-primary" href="#" role="button">Button example</a></p>
+								<h1>Conheça nossos produtos.</h1>
+								<br><br>
+								<p><a class="btn btn-lg btn-primary" href="produtos" role="button">Conheça nossos produtos</a></p>
 							</div>
 						</div>
 					</div>
@@ -53,12 +53,10 @@
 						</div>
 					</div>
 					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-						<span class=""></span>
-						<span class="sr-only"></span>
+						<i class="glyphicon glyphicon-chevron-left"></i>
 					</a>
 					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-						<span class="glyphicon"></span>
-						<span class="sr-only">Next</span>
+						<i class="glyphicon glyphicon-chevron-right"></i>
 					</a>
 					</div><!-- /.carousel -->
 				</div>

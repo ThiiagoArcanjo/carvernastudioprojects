@@ -9,6 +9,46 @@ html, body{
    background-color:#024b48;
 }
 
+.figura{
+  width: 300px;
+  position: relative;
+}
+
+.figura figure{
+  overflow: hidden;
+  position: relative;
+}
+
+.figura figure img{
+  max-width: 100%;
+  position: relative;
+  
+  transition: transform 0.6s;
+}
+.figura figure:hover img{
+  transform: translateY(-20px);
+}
+.figura figcaption{
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  left:  0;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  background-color: #024b48;
+  color: #FFF;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: transform 0.6s, opacity  0.1s 0.3s;
+}
+
+.figura figure:hover figcaption{
+  opacity: 1;
+  transform: translateY(0px);
+  transition: transform 0.6s, opacity 0.1s;
+}
 
 #umpouco{
   color:#cfbcbc ;
