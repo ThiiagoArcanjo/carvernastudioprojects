@@ -16,7 +16,7 @@
 						<img class="first-slide" src="<?php echo base_url('assets/images/b1.jpg') ?>" alt="First slide">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Conheça Nosso produtos</h1>
+								<h1>Conheça Nossos produtos.</h1>
 								<br><br>
 								<p><a class="btn btn-lg btn-primary" href="produtos" role="button">Produtos</a></p>
 							</div>
